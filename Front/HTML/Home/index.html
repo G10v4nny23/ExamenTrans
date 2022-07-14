@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="../img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/Front/HTML/css/bootstrap.min.css" />
+    <style>
+      .banner-image {
+        background-image: url('/Front/HTML/img/banner-img.png');
+        background-size: cover;
+      }
+    </style>
+</head>
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+            <li>
+                <img src="/Front/HTML/img/icono.png" alt="" width="30px">
+            </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="home_login.html">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="home_cre_login.html">Registrarme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="donacion.html">Aporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="categoria.html">Categoria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="producto.html">Productos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Image  -->
+  <div
+    class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+  >
+    <div class="content text-center">
+      <h1 class="text-white">Jardineria</h1>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- Main Content Area -->
+  <h1 class="text-dark text-center">Sobre Nosotros</h1>
+  <div class="container">
+    <div class="row">
+  
+      <div class="row cards" style="width: auto; margin: auto auto;">
+  
+        <div class="card bg-light text-white">
+            <img src="/Front/HTML/img/sn.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title text-dark text-center" style="size: 100px;">Card title</h5>
+              <br>
+              <br>
+              <br>
+              <p class="card-text text-dark text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi provident repellendus laudantium, quisquam nesciunt quis molestiae a asperiores velit, nulla accusantium quia quos et sapiente architecto distinctio iusto qui ad mollitia possimus esse sunt. Veritatis laboriosam quidem deleniti mollitia omnis nemo inventore sed maiores eos, suscipit nobis et ipsum, libero placeat cupiditate tempora at dignissimos rem expedita! Laudantium deleniti, aspernatur voluptatibus exercitationem voluptatem consequuntur illo tenetur impedit aliquam excepturi sequi eaque temporibus eum pariatur modi minima voluptas! Repellat non voluptatibus, iusto quam doloremque eum vel cupiditate autem, adipisci corporis ad! Labore dolore est, libero unde sunt cupiditate.</p>
+            </div>
+          </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-dark', 'shadow');
+      } else {
+        nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
+  </script>
+</body>
+</html>
