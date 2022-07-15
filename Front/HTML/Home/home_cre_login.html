@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,7 +25,7 @@
 						<a href="index.html"><img src="/Front/HTML/img/icono.png" alt="" width="30px"></a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="home_login.html">Iniciar Sesion</a>
+						<a class="nav-link text-dark" href="home_login.html">Iniciar Sesion</a>
 					</li>
 				</ul>
 			</div>
@@ -37,84 +36,79 @@
 			<main role="main" class="container my-auto">
 				<div class="row">
 					<div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
-						<h2 class="text-center" style="font-family: cursive">
+						<h2 class="text-center">
 							Regístrate
 						</h2>
 						<form id="form">
 							<div class="mb-3">
-								<label for="Name" class="form-label" style="font-family: cursive">Nombre</label>
-								<input type="text" class="form-control" id="nombre" aria-describedby="Nombre"
+								<label for="Name" class="form-label">Nombre</label>
+								<input type="text" class="form-control text-center" id="nombre" aria-describedby="Nombre"
 									placeholder="Ingresa tu nombre" />
 							</div>
 							<div class="mb-3">
-								<label for="apellido" class="form-label" style="font-family: cursive">Apellidos</label>
-								<input type="text" class="form-control" id="apellido" aria-describedby="Apellidos"
+								<label for="apellido" class="form-label">Apellidos</label>
+								<input type="text" class="form-control text-center" id="apellido" aria-describedby="Apellidos"
 									placeholder="Ingresa tus apellidos" />
 							</div>
 							<div class="mb-3">
-								<label for="rut" class="form-label" style="font-family: cursive">Rut</label>
-								<input type="text" class="form-control" id="rut" aria-describedby="Rut"
-									placeholder="10000000-0" />
+								<label for="rut" class="form-label">Rut</label>
+								<input type="text" class="form-control text-center" id="rut" aria-describedby="Rut"
+									placeholder="99.999.999-9" />
 							</div>
 							<div class="mb-3">
-								<label for="direccion" class="form-label" style="font-family: cursive">Dirección</label>
-								<input type="text" class="form-control" id="direccion" aria-describedby="Direccion"
+								<label for="direccion" class="form-label">Dirección</label>
+								<input type="text" class="form-control text-center" id="direccion" aria-describedby="Direccion"
 									placeholder="Ingresa la dirección" />
 							</div>
 							<div class="mb-3">
-								<label for="region" class="form-label" style="font-family: cursive">Región</label>
-								<select class="form-control" aria-label="Regiones" id="region">
+								<label for="region" class="form-label">Región</label>
+								<select class="form-control text-center" aria-label="Regiones" id="region">
 									<option value="0" selected>
-										-- Seleccione una region --
+										 Seleccione una region 
 									</option>
 								</select>
 							</div>
 							<div class="mb-3">
-								<label for="provincia" class="form-label" style="font-family: cursive">Provincia</label>
-								<select class="form-control" aria-label="Provincias" id="provincia">
+								<label for="provincia" class="form-label">Provincia</label>
+								<select class="form-control text-center" aria-label="Provincias" id="provincia">
 									<option value="0" selected>
-										-- Seleccione una provincia --
+										 Seleccione una provincia 
 									</option>
 								</select>
 							</div>
 							<div class="mb-3">
-								<label for="comuna" class="form-label" style="font-family: cursive">Comuna</label>
-								<select class="form-control" aria-label="Comunas" id="comuna">
+								<label for="comuna" class="form-label">Comuna</label>
+								<select class="form-control text-center" aria-label="Comunas" id="comuna">
 									<option value="0" selected>
-										-- Seleccione una comuna --
+										 Seleccione una comuna 
 									</option>
 								</select>
 							</div>
 							<div class="mb-3">
-								<label for="telefono" class="form-label" style="font-family: cursive">Teléfono</label>
-								<input type="text" class="form-control" id="telefono" aria-describedby="Telefono"
+								<label for="telefono" class="form-label">Teléfono</label>
+								<input type="text" class="form-control text-center" id="telefono" aria-describedby="Telefono"
 									placeholder="Ingresa tu número fijo o móvil" />
 							</div>
 							<div class="mb-3">
-								<label for="email" class="form-label" style="font-family: cursive">Correo
+								<label for="email" class="form-label">Correo
 									Electrónico</label>
-								<input type="email" class="form-control" id="email"
+								<input type="email" class="form-control text-center" id="email"
 									aria-describedby="Correo electronico" placeholder="Ingresa tu email" />
 							</div>
 							<div class="mb-3">
-								<label for="password" class="form-label" style="font-family: cursive">Contraseña</label>
+								<label for="password" class="form-label">Contraseña</label>
 								<input type="password" class="form-control" id="password" />
 							</div>
 							<div class="mb-3">
-								<label for="password" class="form-label" style="font-family: cursive">Confirme
+								<label for="password" class="form-label">Confirme
 									Contraseña</label>
 								<input type="password" class="form-control" id="password2" />
 							</div>
-							<div class="col-6">
-								<input type="checkbox" class="form-check-input" id="isSuscrito" />
-								<label class="form-check-label" for="exampleCheck1"
-									style="font-family: cursive">Suscribirme</label>
-							</div>
 							<div class="d-grid gap-2 mt-3">
-								<button type="submit" class="btn btn-success" style="font-family: cursive">
+								<button type="submit" class="btn btn-dark">
 									Enviar
 								</button>
-								<button type="reset" class="btn btn-dark" style="font-family: cursive">
+								<button type="reset" class="btn btn-dark">
 									Limpiar
 								</button>
 							</div>
@@ -126,5 +120,4 @@
 	</section>
 	<script src="../../script/registerService.js"></script>
 </body>
-
 </html>
